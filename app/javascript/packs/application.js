@@ -3,7 +3,7 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 import 'bootstrap'
-import 'app/assets/stylesheets/application.scss'
+import 'app/assets/stylesheets/application'
 
 
 import Rails from "@rails/ujs"

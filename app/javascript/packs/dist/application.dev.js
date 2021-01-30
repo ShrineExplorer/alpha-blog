@@ -4,7 +4,7 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
 
 require("bootstrap");
 
-require("app/assets/stylesheets/application.scss");
+require("app/assets/stylesheets/application");
 
 var _ujs = _interopRequireDefault(require("@rails/ujs"));
 
