@@ -2,7 +2,7 @@
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-require("/app/assets/stylesheets/application.css");
+require("bootstrap");
 
 var _ujs = _interopRequireDefault(require("@rails/ujs"));
 
@@ -22,6 +22,15 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 // present in this directory. You're encouraged to place your actual application logic in
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
+global.$ = jQuery;
+
+require("jquery");
+
+require("jquery-ui");
+
+require("bootstrap"); //=require_tree .
+
+
 _ujs["default"].start();
 
 _turbolinks["default"].start();
