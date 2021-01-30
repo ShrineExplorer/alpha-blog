@@ -18,7 +18,7 @@
     
     background-image: asset-url('cover.jpg');
     background-size: cover;
-    height:750px;
+    height:850px;
     
 }
 .jumbotron h1{
@@ -56,4 +56,14 @@ footer ul{
 footer ul li{
     float: left;
     margin-left: 15px;
+}
+.container{
+    max-width:1400px;
+}
+.article-actions{
+    border-top:1px solid #eaeaea;
+    padding-top:spx;
+}
+.description{
+    margin-top:0;
 }
