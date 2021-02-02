@@ -4,8 +4,6 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
 
 require("bootstrap");
 
-require("app/assets/stylesheets/application");
-
 var _ujs = _interopRequireDefault(require("@rails/ujs"));
 
 var _turbolinks = _interopRequireDefault(require("turbolinks"));
@@ -24,10 +22,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 // present in this directory. You're encouraged to place your actual application logic in
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
-require.context('../images', true);
-
-global.$ = jQuery;
-
 _ujs["default"].start();
 
 _turbolinks["default"].start();

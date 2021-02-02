@@ -5,18 +5,11 @@
 import 'bootstrap'
 
 
-import 'app/assets/stylesheets/application'
-require.context('../images', true)
-
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
-global.$ = jQuery;
-
-
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
-
